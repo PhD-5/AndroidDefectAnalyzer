@@ -19,10 +19,6 @@ import org.jf.smali.smaliFlexLexer;
 import org.jf.smali.smaliParser;
 
 import com.ssca.Main.Config;
-import com.ssca.analyse.smali.bound.ActivityInBound;
-import com.ssca.analyse.smali.bound.IntentData;
-import com.ssca.analyse.smali.bound.RecieverInBound;
-import com.ssca.analyse.smali.bound.ServiceInBound;
 import com.ssca.analyse.smali.controlflow.GetControlFlow;
 import com.ssca.commonData.CommonData;
 
@@ -58,30 +54,7 @@ public class SmaliAnalyzer {
 		}
 		
 		logger.info("smali end!");
-		
-		logger.info("start get activity bound!");
-		//根据控制流，解析activity的Bound
-		ActivityInBound activityBound = new ActivityInBound();
-		activityBound.getInBound();
-		logger.info("activity end!");
-		
-		logger.info("start get service bound!");
-		//根据控制流，解析activity的Bound
-		ServiceInBound serviceInBound = new ServiceInBound();
-		serviceInBound.getInBound();
-		logger.info("service end!");
-		
-		logger.info("start get reciever bound!");
-		//根据控制流，解析activity的Bound
-		RecieverInBound recieverInBound = new RecieverInBound();
-		recieverInBound.getInBound();
-		logger.info("reciever end!");
-		
-		
-//		if(CommonData.getActivityInList()==null)
-//			return ;
-//		for(IntentData s : CommonData.getActivityInList())
-//			System.out.println(s);
+
 		
 	}
 	

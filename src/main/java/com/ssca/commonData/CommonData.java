@@ -5,7 +5,6 @@ package com.ssca.commonData;
 
 import java.util.List;
 
-import com.ssca.analyse.smali.bound.IntentData;
 
 /**
  * @author yujianbo
@@ -22,9 +21,6 @@ public class CommonData {
 	private static List<String> serviceOutList;
 	private static List<String> receiverOutList;
 	private static List<String> providerOutList;
-	private static List<IntentData> activityInList;
-	private static List<IntentData> serviceInList;
-	private static List<IntentData> receiverInList;
 	private static List<String> providerInList;
 	
 	private static List<String> whiteList;
@@ -44,29 +40,6 @@ public class CommonData {
 		CommonData.whiteList = whiteList;
 	}
 
-	public static List<IntentData> getActivityInList() {
-		return activityInList;
-	}
-
-	public static void setActivityInList(List<IntentData> activityInList) {
-		CommonData.activityInList = activityInList;
-	}
-
-	public static List<IntentData> getServiceInList() {
-		return serviceInList;
-	}
-
-	public static void setServiceInList(List<IntentData> serviceInList) {
-		CommonData.serviceInList = serviceInList;
-	}
-
-	public static List<IntentData> getReceiverInList() {
-		return receiverInList;
-	}
-
-	public static void setReceiverInList(List<IntentData> receiverInList) {
-		CommonData.receiverInList = receiverInList;
-	}
 
 	public static List<String> getProviderInList() {
 		return providerInList;
