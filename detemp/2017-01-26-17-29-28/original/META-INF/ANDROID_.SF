@@ -1,0 +1,26 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: mO24KIE/qb6GkxlB/DUxk+dRyIg=
+Created-By: 1.6.0_43 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: lBXYpYvlXF0mQwZx0IQjQN3XCIw=
+
+Name: res/layout/main.xml
+SHA1-Digest: Tnh3ORrr8648nmx2gv0E2I/Yt4E=
+
+Name: AndroidManifest.xml
+SHA1-Digest: gy7wvodxEnBW9PBxTbatRV4oFvg=
+
+Name: res/drawable/icon.png
+SHA1-Digest: bIiQJoZyDg6FOsXUDo0KID/75WM=
+
+Name: res/xml/ok.xml
+SHA1-Digest: vm49w4dMO18cC+HRVu0DKJbI2ps=
+
+Name: resources.arsc
+SHA1-Digest: X34ickzgj9++v/iqD/fClLvRi5g=
+
+Name: classes.dex
+SHA1-Digest: ajfXHL4BEYTI/+nTdZTpoBtp2sY=
+
+Name: lib/armeabi/libAPKProtect.so
+SHA1-Digest: iyz8TUUCMrPCJWMBJcf3zEkwFas=
+
